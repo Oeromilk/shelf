@@ -1,10 +1,8 @@
 # Shelf
-____
 
 This is version 2.0 of the Shelf App. :baseball:
 
 ## Explanation
-____
 
 The intent of this app is to allow fans to figure out the most ideal
 location to sit in any given ballpark to catch a home run.
@@ -13,7 +11,6 @@ Using simple data from previous caught home runs we will be able to
 create "heat maps" in seating charts to showcase where you should sit.
 
 ## Features
-___
 
 Standard features include:
 
@@ -23,24 +20,17 @@ Standard features include:
 * Toggle site theme for favorite team or just default.
 
 ## Tech Stack
-___
 
-![React Logo]
-(https://cdn.worldvectorlogo.com/logos/react.svg =250x125)
+![React Logo](https://cdn.worldvectorlogo.com/logos/react.svg)
 
-![JQuery Logo]
-(https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/524px-JQuery_logo.svg.png =250x125)
+![JQuery Logo](https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/524px-JQuery_logo.svg.png)
 
-![MongoDB Logo]
-(https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg =250x125)
+![MongoDB Logo](https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg)
 
-![Heroku Logo]
-(http://cdn.solertium.com/system/images/binaries/000/000/197/original/heroku-logo.jpg?1395788529 =250x125)
+![Heroku Logo](http://cdn.solertium.com/system/images/binaries/000/000/197/original/heroku-logo.jpg?1395788529)
 
-![Backbone Logo]
-(http://www.enspire.com/wp-content/uploads/2016/01/backbone_logo.png =250x125)
+![Backbone Logo](http://www.enspire.com/wp-content/uploads/2016/01/backbone_logo.png)
 
-![Bootstrap Logo]
-(http://res.cloudinary.com/dnkqgvjbd/image/upload/v1451679096/bootstrap_xfpqre.png =250x125)
+![Bootstrap Logo](http://res.cloudinary.com/dnkqgvjbd/image/upload/v1451679096/bootstrap_xfpqre.png)
 
-**__ I do not own any of the rights for the above logos used __**
+**I do not own any of the rights for the above logos used.**
