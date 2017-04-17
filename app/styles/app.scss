@@ -1,0 +1,204 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+//Google fonts
+@import url('https://fonts.googleapis.com/css?family=BioRhyme:300|Catamaran:500|Neuton:200');
+
+html, body {
+  height: 100%;
+}
+
+@media (max-width: 768px){
+  #navBarDropDown {
+    display: inline-block;
+  }
+}
+
+.btn-default:hover {
+  color: #fff !important;
+  background-color: #FF530D !important;
+}
+
+.list-group-item {
+  background-color: rgb(255, 255, 255) !important;
+}
+.list-group-item:hover {
+  color: #fff !important;
+  background-color: #FF530D !important;
+}
+
+//Color Scheme
+
+// #2B3A42
+// #3F5765
+// #BDD4DE
+// #FF530D
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 48px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbarStyle {
+  background-color: #2B3A42;
+}
+
+.user-nav-avatar {
+  height: 24px;
+  width: 24px;
+}
+
+h1, h2, h3, h4, h5, h6, input {
+  font-family: 'Catamaran', sans-serif;
+}
+
+p, span, a {
+  font-family: 'Neuton', serif;
+}
+
+#dateStyle {
+  min-height: 950px;
+  background-color: #3F5765;
+}
+
+//SignUp Style
+#signUpBackground {
+  height: 950px;
+  background-image: url('https://static.pexels.com/photos/139762/pexels-photo-139762.jpeg');
+  background-size: cover;
+  position: relative;
+}
+
+.signUpBanner {
+  margin-top: 200px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
+#labelStyle {
+  color: #FF530D;
+}
+
+#signUpSide {
+  color: #FF530D;
+}
+
+//SignIn Style
+#signInBackground {
+  height: 950px;
+  background-image: url('https://static.pexels.com/photos/106218/pexels-photo-106218.jpeg');
+  background-size: cover;
+  position: relative;
+}
+
+.signInBanner {
+  margin-top: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
+//Nav Style
+.colorTest {
+  color: #FF530D;
+}
+
+//Landing Style
+.jumboHeight {
+  color: #FF530D;
+  height: 900px;
+  background-image: url('http://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2014/3/10/2/hgtv-18-sh14-kids-bedroom_h.jpg.rend.hgtvcom.1280.960.jpeg');
+  background-size: cover;
+  position: relative;
+}
+
+.jumboHeight {
+  p {
+    font-size: 36px;
+    font-weight: 200;
+  }
+}
+
+.articleContent {
+
+  background-color: #BDD4DE;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  .articleParagraphs {
+    font-size: 18px;
+  }
+}
+
+//User Listing Style
+.userStyleBackground {
+  background-color: #3F5765;
+  padding-bottom: 50px;
+}
+
+#userListHeading {
+  color: #FF530D;
+  font-size: 48px;
+}
+.userListingStyle{
+  padding: 10px;
+  background-color: #BDD4DE;
+  border: 1px solid #2B3A42;
+  border-radius: 5px;
+  margin: 5px;
+} h4 {
+  color: #FF530D;
+} p {
+  color:#2B3A42;
+}
+
+//Top User Style
+.topUserHeading {
+  color: #FF530D;
+}
+
+.topUserFont {
+  font-size: 24px;
+}
+
+.topUserOpacity {
+  background-color: transparent;
+}
+
+.topUserBackground {
+  height: 950px;
+  background-image: url('http://grabow.herokuapp.com/files/dalaran/3383df1c417a64f960783b503e25205d_BASEBALL%20PHOTO.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+.claimFormStyle {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.claimFormHelper {
+  color: #2B3A42;
+}
+
+.batterPadding {
+  padding-top: 10px;
+}
+// .hover-style {
+//   border-bottom-style: 1px solid #FF530D;
+// }
