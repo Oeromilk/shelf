@@ -21,6 +21,8 @@ Standard features include:
 
 ## Tech Stack
 
+<img src="https://cdn.worldvectorlogo.com/logos/react.svg" alt="React Logo" width="250px" height="250px">
+
 ![React Logo](https://cdn.worldvectorlogo.com/logos/react.svg)
 
 ![JQuery Logo](https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/524px-JQuery_logo.svg.png)
