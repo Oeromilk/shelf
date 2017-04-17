@@ -22,17 +22,10 @@ Standard features include:
 ## Tech Stack
 
 <img src="https://cdn.worldvectorlogo.com/logos/react.svg" alt="React Logo" width="250px" height="250px">
-
-![React Logo](https://cdn.worldvectorlogo.com/logos/react.svg)
-
-![JQuery Logo](https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/524px-JQuery_logo.svg.png)
-
-![MongoDB Logo](https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg)
-
-![Heroku Logo](http://cdn.solertium.com/system/images/binaries/000/000/197/original/heroku-logo.jpg?1395788529)
-
-![Backbone Logo](http://www.enspire.com/wp-content/uploads/2016/01/backbone_logo.png)
-
-![Bootstrap Logo](http://res.cloudinary.com/dnkqgvjbd/image/upload/v1451679096/bootstrap_xfpqre.png)
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/524px-JQuery_logo.svg.png" alt="JQuery Logo" width="250px" height="125px">
+<img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg" alt="MongoDB Logo" width="250px" height="125px">
+<img src="http://cdn.solertium.com/system/images/binaries/000/000/197/original/heroku-logo.jpg?1395788529" alt="Heroku Logo" width="250px" height="125px">
+<img src="http://www.enspire.com/wp-content/uploads/2016/01/backbone_logo.png" alt="Backbone Logo" width="250px" height="125px">
+<img src="http://res.cloudinary.com/dnkqgvjbd/image/upload/v1451679096/bootstrap_xfpqre.png" alt="Bootstrap Logo" width="250px" height="250px">
 
 **I do not own any of the rights for the above logos used.**
