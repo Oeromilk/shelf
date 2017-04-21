@@ -19,14 +19,19 @@ var BallParkDetail = React.createClass({
     return (
       <div className="row stadium-style">
         <div className="col-md-8 col-md-offset-2">
-          <h2>{stadium.name} <span className="label label-info">{stadium.team}</span></h2>
-          <h2>Park Open Date: {stadium.yearOpened} <span className="label label-info">Park Age: {parkAge}</span></h2>
-          <h2>Capacity <span className="label label-info">{stadium.capacity}</span></h2>
-          <h2>Distance To Center Field: <span className="label label-info">{stadium.centerField} feet</span></h2>
-          <img src={stadium.seatingChartImage}></img>
+          <h1 className="stadium-heading">Stadium Information</h1>
+          <div>
+            <h2 className="stadium-info">{stadium.name} <span className="label label-info">{stadium.team}</span></h2>
+            <h2 className="stadium-info">Park Open Date: {stadium.yearOpened} <span className="label label-info">Park Age: {parkAge}</span></h2>
+            <h2 className="stadium-info">Capacity <span className="label label-info">{stadium.capacity}</span></h2>
+            <h2 className="stadium-info">Distance To Center Field: <span className="label label-info">{stadium.centerField} feet</span></h2>
+          </div>
+          <img className="seating-image" src={stadium.seatingChartImage}></img>
+          <div className="ballpark-map">
             <iframe  width="100%" height="450" frameBorder="0" style={{border:0}}
               src={mapUrl} allowFullScreen>
             </iframe>
+          </div>
         </div>
       </div>
     )
