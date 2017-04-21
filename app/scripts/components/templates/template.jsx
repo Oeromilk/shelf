@@ -30,6 +30,7 @@ var FixedHeader = React.createClass({
             <li><a href="#user-listing/"><i className="fa fa-list" aria-hidden="true"></i></a></li>
             <li><a href="#top-users/"><i className="fa fa-fire" aria-hidden="true"></i></a></li>
             <li><a href="#date-picker/"><i className="fa fa-calendar-o" aria-hidden="true"></i></a></li>
+            <li><a href="#ballparks/"><i className="fa fa-building-o" aria-hidden="true"></i></a></li>
           </ul>
           <ul className="nav navbar-nav navbar-right">
             <li><p className="navbar-text visible-sm visible-md visible-lg">Signed in as: {username}</p></li>
@@ -41,6 +42,7 @@ var FixedHeader = React.createClass({
                   <li><a href="#user-listing/"><i className="fa fa-list" aria-hidden="true"></i></a></li>
                   <li><a href="#top-users/"><i className="fa fa-fire" aria-hidden="true"></i></a></li>
                   <li><a href="#date-picker/"><i className="fa fa-calendar-o" aria-hidden="true"></i></a></li>
+                  <li><a href="#ballparks/"><i className="fa fa-building-o" aria-hidden="true"></i></a></li>
                   <li role="separator" className="divider"></li>
                   <li><a href="#login/" role="button">Sign In <i className="fa fa-sign-in" aria-hidden="true"></i></a></li>
                   <li><a href="#signup/" role="button">Sign Up <i className="fa fa-user-plus" aria-hidden="true"></i></a></li>

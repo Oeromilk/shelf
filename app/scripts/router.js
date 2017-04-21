@@ -6,6 +6,8 @@ var LandingContainer = require('./components/landing.jsx').LandingContainer;
 var LogInContainer = require('./components/login.jsx').LogInContainer;
 var SignUpContainer = require('./components/signup.jsx').SignUpContainer;
 var DatePickerContainer = require('./components/date_picker.jsx').DatePickerContainer;
+var BallParksContainer = require('./components/ballparks.jsx').BallParksContainer;
+var BallParkDetailContainer = require('./components/ballparkdetail.jsx').BallParkDetailContainer;
 var GameDayDetailContainer = require('./components/game_day_detail.jsx').GameDayDetailContainer;
 var ClaimFormContainer = require('./components/claim_form.jsx').ClaimFormContainer;
 var UserListingContainer = require('./components/user_listing.jsx').UserListingContainer;
@@ -20,6 +22,8 @@ var AppRouter = Backbone.Router.extend({
     'date-picker/': 'datePicker',
     'date-picker/:id/': 'gameDayDetail',
     'claim-form/:id/': 'claimForm',
+    'ballparks/': 'ballParks',
+    'ballparks/:id/': 'ballParkDetail',
     'user-listing/': 'userListing',
     'user-listing/:model/': 'userListingEdit',
     'top-users/': 'topUsers'
@@ -57,6 +61,18 @@ var AppRouter = Backbone.Router.extend({
   claimForm: function(nameId){
     ReactDom.render(
       React.createElement(ClaimFormContainer, {router: this, nameId: nameId}),
+      document.getElementById('app')
+    );
+  },
+  ballParks: function(){
+    ReactDom.render(
+      React.createElement(BallParksContainer, {router: this}),
+      document.getElementById('app')
+    );
+  },
+  ballParkDetail: function(parkId){
+    ReactDom.render(
+      React.createElement(BallParkDetailContainer, {router: this, parkId: parkId}),
       document.getElementById('app')
     );
   },

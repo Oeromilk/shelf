@@ -112,7 +112,7 @@ var ClaimForm = React.createClass({
             <option>Target Field</option>
             <option>Tropicana Field</option>
             <option>Wrigley Field</option>
-            <option>Yanke Stadium</option>
+            <option>Yankee Stadium</option>
           </select>
           <label htmlFor="dateSelector">Select Date </label>
           <input onChange={this.handleInputChange} type="date" name="date" className="form-control" value={this.state.date} />

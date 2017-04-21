@@ -45,7 +45,8 @@ html, body {
 }
 
 body {
-  padding-top: 48px;
+  background-color: #3F5765;
+  padding-top: 50px;
 }
 
 img {
@@ -198,6 +199,14 @@ p, span, a {
 
 .batterPadding {
   padding-top: 10px;
+}
+
+.stadium-style {
+  margin-top: 25px;
+}
+
+#stadium-listing {
+  text-align: center;
 }
 // .hover-style {
 //   border-bottom-style: 1px solid #FF530D;
