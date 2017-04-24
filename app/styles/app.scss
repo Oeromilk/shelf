@@ -6,7 +6,7 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
 //Google fonts
-@import url('https://fonts.googleapis.com/css?family=BioRhyme:300|Catamaran:500|Neuton:200');
+@import url('https://fonts.googleapis.com/css?family=BioRhyme:300|Catamaran:500|Neuton:200|Droid+Sans');
 
 html, body {
   height: 100%;
@@ -17,6 +17,15 @@ html, body {
     display: inline-block;
   }
 }
+
+h1, h2, h3, h4, h5, h6, input {
+  font-family: 'Catamaran', sans-serif;
+}
+
+p, span, a {
+  font-family: 'Neuton', serif;
+}
+
 
 .dropdown-toggle {
   display: inline !important;
@@ -61,17 +70,19 @@ img {
   background-color: #2B3A42;
 }
 
+.navbarIcons {
+  font-family: 'Droid Sans', sans-serif !important;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.navbarIcons:hover {
+  color: #FF530D !important;
+}
+
 .user-nav-avatar {
   height: 24px;
   width: 24px;
-}
-
-h1, h2, h3, h4, h5, h6, input {
-  font-family: 'Catamaran', sans-serif;
-}
-
-p, span, a {
-  font-family: 'Neuton', serif;
 }
 
 #dateStyle {
@@ -233,6 +244,3 @@ p, span, a {
 #stadium-listing {
   text-align: center;
 }
-// .hover-style {
-//   border-bottom-style: 1px solid #FF530D;
-// }
