@@ -883,33 +883,33 @@ var FixedHeader = React.createClass({displayName: "FixedHeader",
       React.createElement("nav", {className: "navbar navbar-default navbar-fixed-top"}, 
         React.createElement("div", {className: "container-fluid navbarStyle"}, 
           React.createElement("div", {className: "navbar-header hover-style navBarDropDown"}, 
-            React.createElement("a", {className: "navbar-brand", href: "#"}, "Shelf")
+            React.createElement("a", {className: "navbar-brand navbarIcons", href: "#"}, "Shelf")
           ), 
           React.createElement("ul", {className: "nav navbar-nav visible-sm visible-md visible-lg"}, 
-            React.createElement("li", null, React.createElement("a", {href: "#user-listing/"}, React.createElement("i", {className: "fa fa-list", "aria-hidden": "true"}))), 
-            React.createElement("li", null, React.createElement("a", {href: "#top-users/"}, React.createElement("i", {className: "fa fa-fire", "aria-hidden": "true"}))), 
-            React.createElement("li", null, React.createElement("a", {href: "#date-picker/"}, React.createElement("i", {className: "fa fa-calendar-o", "aria-hidden": "true"}))), 
-            React.createElement("li", null, React.createElement("a", {href: "#ballparks/"}, React.createElement("i", {className: "fa fa-building-o", "aria-hidden": "true"})))
+            React.createElement("li", null, React.createElement("a", {className: "navbarIcons", href: "#user-listing/"}, React.createElement("i", {className: "fa fa-list", "aria-hidden": "true"}), " My Shelf")), 
+            React.createElement("li", null, React.createElement("a", {className: "navbarIcons", href: "#top-users/"}, React.createElement("i", {className: "fa fa-fire", "aria-hidden": "true"}), " Top Users")), 
+            React.createElement("li", null, React.createElement("a", {className: "navbarIcons", href: "#date-picker/"}, React.createElement("i", {className: "fa fa-calendar-o", "aria-hidden": "true"}), " Date Picker")), 
+            React.createElement("li", null, React.createElement("a", {className: "navbarIcons", href: "#ballparks/"}, React.createElement("i", {className: "fa fa-building-o", "aria-hidden": "true"}), " Stadium Info"))
           ), 
           React.createElement("ul", {className: "nav navbar-nav navbar-right"}, 
-            React.createElement("li", null, React.createElement("p", {className: "navbar-text visible-sm visible-md visible-lg"}, "Signed in as: ", username)), 
+            React.createElement("li", null, React.createElement("p", {className: "navbar-text visible-sm visible-md visible-lg navbarIcons"}, "Signed in as: ", username)), 
             React.createElement("li", null, React.createElement("div", {className: "navbar-brand visible-sm visible-md visible-lg"}, React.createElement("img", {className: "user-nav-avatar img-rounded", src: userAvatar}))), 
-            React.createElement("li", null, React.createElement("a", {className: "visible-sm visible-md visible-lg", href: "#login/", role: "button"}, "Sign In ", React.createElement("i", {className: "fa fa-sign-in", "aria-hidden": "true"}))), 
+            React.createElement("li", null, React.createElement("a", {className: "visible-sm visible-md visible-lg navbarIcons", href: "#login/", role: "button"}, "Sign In ", React.createElement("i", {className: "fa fa-sign-in", "aria-hidden": "true"}))), 
               React.createElement("li", {id: "navBarDropDown", className: "dropdown visible-xs"}, 
-                React.createElement("a", {href: "#", className: "dropdown-toggle", "data-toggle": "dropdown", role: "button", "aria-haspopup": "true", "aria-expanded": "false"}, React.createElement("i", {className: "fa fa-bars", "aria-hidden": "true"})), 
+                React.createElement("a", {href: "#", className: "dropdown-toggle navbarIcons", "data-toggle": "dropdown", role: "button", "aria-haspopup": "true", "aria-expanded": "false"}, React.createElement("i", {className: "fa fa-bars", "aria-hidden": "true"})), 
                 React.createElement("ul", {className: "dropdown-menu"}, 
-                  React.createElement("li", null, React.createElement("a", {href: "#user-listing/"}, React.createElement("i", {className: "fa fa-list", "aria-hidden": "true"}))), 
-                  React.createElement("li", null, React.createElement("a", {href: "#top-users/"}, React.createElement("i", {className: "fa fa-fire", "aria-hidden": "true"}))), 
-                  React.createElement("li", null, React.createElement("a", {href: "#date-picker/"}, React.createElement("i", {className: "fa fa-calendar-o", "aria-hidden": "true"}))), 
-                  React.createElement("li", null, React.createElement("a", {href: "#ballparks/"}, React.createElement("i", {className: "fa fa-building-o", "aria-hidden": "true"}))), 
-                  React.createElement("li", {role: "separator", className: "divider"}), 
-                  React.createElement("li", null, React.createElement("a", {href: "#login/", role: "button"}, "Sign In ", React.createElement("i", {className: "fa fa-sign-in", "aria-hidden": "true"}))), 
-                  React.createElement("li", null, React.createElement("a", {href: "#signup/", role: "button"}, "Sign Up ", React.createElement("i", {className: "fa fa-user-plus", "aria-hidden": "true"}))), 
-                  React.createElement("li", null, React.createElement("a", {onClick: this.handleSignOut, href: "#"}, React.createElement("i", {className: "fa fa-power-off", "aria-hidden": "true"})))
+                  React.createElement("li", null, React.createElement("a", {className: "navbarIcons", href: "#user-listing/"}, React.createElement("i", {className: "fa fa-list", "aria-hidden": "true"}), " My Shelf")), 
+                  React.createElement("li", null, React.createElement("a", {className: "navbarIcons", href: "#top-users/"}, React.createElement("i", {className: "fa fa-fire", "aria-hidden": "true"}), " Top Users")), 
+                  React.createElement("li", null, React.createElement("a", {className: "navbarIcons", href: "#date-picker/"}, React.createElement("i", {className: "fa fa-calendar-o", "aria-hidden": "true"}), " Date Picker")), 
+                  React.createElement("li", null, React.createElement("a", {className: "navbarIcons", href: "#ballparks/"}, React.createElement("i", {className: "fa fa-building-o", "aria-hidden": "true"}), " Stadium Info")), 
+                  React.createElement("li", {role: "separator", className: "divider navbarIcons"}), 
+                  React.createElement("li", null, React.createElement("a", {className: "navbarIcons", href: "#login/", role: "button"}, "Sign In ", React.createElement("i", {className: "fa fa-sign-in", "aria-hidden": "true"}))), 
+                  React.createElement("li", null, React.createElement("a", {className: "navbarIcons", href: "#signup/", role: "button"}, "Sign Up ", React.createElement("i", {className: "fa fa-user-plus", "aria-hidden": "true"}))), 
+                  React.createElement("li", null, React.createElement("a", {className: "navbarIcons", onClick: this.handleSignOut, href: "#"}, React.createElement("i", {className: "fa fa-power-off", "aria-hidden": "true"})))
                 )
               ), 
-            React.createElement("li", null, React.createElement("a", {className: "visible-sm visible-md visible-lg", href: "#signup/", role: "button"}, "Sign Up ", React.createElement("i", {className: "fa fa-user-plus", "aria-hidden": "true"}))), 
-            React.createElement("li", null, React.createElement("a", {className: "visible-sm visible-md visible-lg", onClick: this.handleSignOut, href: "#"}, React.createElement("i", {className: "fa fa-power-off", "aria-hidden": "true"})))
+            React.createElement("li", null, React.createElement("a", {className: "visible-sm visible-md visible-lg navbarIcons", href: "#signup/", role: "button"}, "Sign Up ", React.createElement("i", {className: "fa fa-user-plus", "aria-hidden": "true"}))), 
+            React.createElement("li", null, React.createElement("a", {className: "visible-sm visible-md visible-lg navbarIcons", onClick: this.handleSignOut, href: "#"}, React.createElement("i", {className: "fa fa-power-off", "aria-hidden": "true"})))
           )
         )
       )
