@@ -18,6 +18,10 @@ html, body {
   }
 }
 
+.dropdown-toggle {
+  display: inline !important;
+}
+
 .btn-default:hover {
   color: #fff !important;
   background-color: #FF530D !important;

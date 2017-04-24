@@ -14,7 +14,6 @@ var BallParkDetail = React.createClass({
     var stadiumName = stadium.name;
     var splitName = stadiumName.split(' ').join('+').toLowerCase();
     var mapUrl = "https://www.google.com/maps/embed/v1/search?q=" + splitName + "&key=AIzaSyDtCOc-SR5j5FVwHIekuHDQQT4oYlsW5zE";
-    console.log(splitName);
 
     return (
       <div className="row stadium-style">
@@ -40,7 +39,6 @@ var BallParkDetail = React.createClass({
 
 var BallParkDetailContainer = React.createClass({
   render: function(){
-    console.log(this.props.parkId);
     return (
       <Template>
         <BallParkDetail parkId={this.props.parkId}></BallParkDetail>
